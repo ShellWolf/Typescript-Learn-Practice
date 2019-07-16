@@ -54,7 +54,7 @@ export function mapObject<K extends string | number, T, U> (
 const names = {0: "hello", 1: "world", 2: 'babe'}
 const lengths = mapObject(names, s => s.length) // {0: 5, 1:5, 2: 4}
 
-// 由映射内心进行推断
+// 由映射类型进行推断
 // - 进行逆向操作，拆包
 type Proxy<T> = {
   get(): T,
