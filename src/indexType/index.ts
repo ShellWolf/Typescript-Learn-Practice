@@ -29,8 +29,8 @@ type NameType = InfoInterface['name']
 const name: NameType = '123'
 // const name1: NameType = 123
 
-function getProperty<T, K extends keyof T>(o: T, name: K): T[K] => {
-  return o[name]
+function getProperty<T, K extends keyof T>(o: T, name1: K): T[K] {
+  return o[name1]
 }
 
 // interface OBJ<T> {
