@@ -136,7 +136,7 @@
       "no-string-literal": false,
       "no-require-imports": true,
       "only-arrow-functions": [
-          true,
+          false,
           "allow-declarations",
           "allow-named-functions"
       ],
